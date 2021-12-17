@@ -1,0 +1,173 @@
+#slide {
+    margin: auto;
+    display: flex;
+}
+#slide>div {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#slide>div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#feature{
+    text-align: center;
+}
+#catgarybox>div>p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#feature>h2,#bestsell>h2,#catgary>h2,#brand>h2{
+    line-height: 1.43;
+    font-size: 32px;
+    color: #332f34;
+    font-style: normal;
+    font-weight: lighter;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#featurebox,#bestsellbox,#gridbox,#grid1box,#catgarybox,#brandbox{
+    display: flex;
+}
+#grid,#brandbox{
+    margin-top: 50px;
+}
+#catgarybox{
+    margin-top: 20px;
+}
+
+#featurebox>div:nth-child(1){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/FaceHalo_400x.jpg?v=1613732371");
+    
+    background-position: center;
+    background-size:cover;
+    width: 750px;
+    height: 265px;
+}
+#featurebox>div:nth-child(2){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Is_clinical_0330e29e-84cf-445d-babe-65fa222f547a_600x.jpg?v=1612873740");
+   background-position: center;
+   background-size:cover;
+    width: 1020px;
+    height: 265px;
+}
+#featurebox>div:nth-child(3){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Wellexir_400x.jpg?v=1612873310");
+    background-position: center;
+    background-size:cover;
+    width: 750px;
+    height: 265px;
+}
+#featurebox>div,#bestsellbox>div,#gridbox>div,#grid1box>div,#catgarybox>div,#brandbox>div{
+    margin: 20px;
+    cursor: pointer;
+}
+#featurebox>div>div,#bestsellbox>div>div,#gridbox>div>div,#grid1box>div>div{
+    margin-top: 195px;
+
+}
+#featurebox>div>div>#buybtn,#gridbox>div>div>#buybtn1,#grid1box>div>div>#buybtn1{
+    background: #efc991;
+    color: #332f34;
+    padding: 0 30px;
+    line-height: 48px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 600px;
+    font-size: 13px;
+    border: none;
+    margin-left: 245px;
+}
+#bestsellbox>div:nth-child(1){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Naturigin_400x.jpg?v=1612873427");
+    
+    background-position: center;
+    background-size:cover;
+    width: 750px;
+    height: 265px;
+}
+#bestsellbox>div:nth-child(2){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/SBh_BaNNEr_5af01936-6298-4565-9990-6fb578cb0916_600x.jpg?v=1612873623");
+    
+    background-position: center;
+    background-size:cover;
+    width: 1020px;
+    height: 265px;
+}
+#bestsellbox>div:nth-child(3){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Sesderma_b08a159d-1a0e-4798-8848-2baf04b67bec_400x.jpg?v=1606890630");
+    
+    background-position: center;
+    background-size:cover;
+    width: 750px;
+    height: 265px;
+}
+#bestsellbox>div>div>#buybtn1{
+    background: #efc991;
+    color: #332f34;
+    padding: 0 30px;
+    line-height: 48px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 600px;
+    font-size: 13px;
+    border: none;
+    margin-left: 260px;
+}
+#gridbox>div:nth-child(1){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Organic_e39023a7-0943-48f9-95ca-73ee8d1e97b1_1200x.jpg?v=1606890678");
+    
+    background-position: center;
+    background-size:cover;
+    width: 750px;
+    height: 265px;
+}
+#gridbox>div:nth-child(2){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Baby_Care_1200x.jpg?v=1606890799");
+    
+    background-position: center;
+    background-size:cover;
+    width: 1020px;
+    height: 265px;
+}
+#gridbox>div:nth-child(3){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Featured_collection.psdHair_Products_2_1200x.jpg?v=1606890771");
+    
+    background-position: center;
+    background-size:cover;
+    width: 750px;
+    height: 265px;
+}
+
+#grid1box>div:nth-child(1){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Hair_Accessories_8ae8e66b-52a6-46b2-b40a-9decf61405de_1200x.jpg?v=1606890758");
+    
+    background-position: center;
+    background-size:cover;
+    width: 750px;
+    height: 265px;
+}
+#grid1box>div:nth-child(2){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Anti_Aging_1200x.jpg?v=1606890735");
+    
+    background-position: center;
+    background-size:cover;
+    width: 1020px;
+    height: 265px;
+}
+#grid1box>div:nth-child(3){
+    background-image: url("https://cdn.shopify.com/s/files/1/0415/0548/9058/files/Stay_Fit_and_healthy_1200x.jpg?v=1606890710");
+    
+    background-position: center;
+    background-size:cover;
+    width: 750px;
+    height: 265px;
+}
+
+#catgarybox>div>img,#brandbox>div>img{
+    width: 100%;
+}

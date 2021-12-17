@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/product.css">
+    <link rel="stylesheet" href="./styles/footerabv.css">
+</head>
+<body>
+   <div id="navbar">
+   </div>
+
+<!-- produc -->
+<div id="biggdiv">
+   <div id="smalldiv">
+       <div id="firstdiv">
+           <p class="home">Home&nbsp;>&nbsp;is CLINICAL</p>
+           <img src="https://cdn.shopify.com/s/files/1/0415/0548/9058/collections/iS_Logo_Blue_1200x1200_b7d8cf46-fa2f-44da-8f0f-56c0c8b245df_1500x.jpg?v=1612528005" />
+           <h2 class="clinic"">is CLINICAL</h2>
+           <p>26 products</p>
+           <p>YOUR SKIN... OUR SCIENCE...Pure Chemistry</p>
+       </div>
+       <div id="seconddiv">
+           <div><select>Display:24 per page &nbsp;
+               <option>Display:24 per page</option>
+               <option>Display:36 per page</option>
+               <option>Display:48 per page</option>
+           </select></div>
+           <div><select>
+               <option value="">Sort by:Featured</option>
+               <option value="">Sort by:best selling</option>
+               <option value="">Alphabetically:A-Z</option>
+               <option value="">Alphabetically:Z-A</option>
+               <option value="">Price:low to high</option>
+               <option value="">Price high to low</option>
+               <option value="">Date, old to new</option>
+               <option value="">date, new to old</option>
+           </select></div>
+           <div>
+               <p>view</p>
+               <img src="" />
+               <img src="" />
+           </div>
+       </div>
+
+       
+       <div id="thirddiv">
+
+
+       </div>
+   </div>
+</div>
+ 
+
+
+<!-- product -->
+
+
+
+
+<div id="bottombox"></div>
+   <div id="footerbac"></div>
+</body>
+</html>
+<script type="module">
+   import navbar from './components/navbar.js'
+   let nav=document.getElementById("navbar")
+   nav.innerHTML=navbar();
+
+   import footerabove from './components/footerabove.js'
+   let ftrabove=document.getElementById("bottombox")
+   ftrabove.innerHTML=footerabove()
+
+   import footer from './components/footer.js'
+   let foot=document.getElementById("footerbac")
+   foot.innerHTML=footer();
+
+</script>
+<script src="./scripts/product.js"></script>

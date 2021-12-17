@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/cart.css">
+    <link rel="stylesheet" href="./styles/footerabv.css">
+</head>
+<body>
+  <div id="navbar"></div>
+
+
+
+<div class="allItems">
+  <div class="leftSide">
+    
+      <div id="cartItem">
+       
+      </div>
+      <div id="cart_data">
+        <div id="man">
+          <p>Product</p>
+          <p>Quantity</p>
+          <p>Total</p>
+        </div>
+      </div>
+  </div>
+  <div class="rightSide">
+      <div id="totalAmount"></div>
+      <button id="proceedtopay"></button>
+  </div>
+</div>
+
+<!-- end cart -->
+<div id="bottombox"></div>
+
+  <div id="footerbac"></div>
+</body>
+</html>
+<script type="module">
+  import navbar from './components/navbar.js'
+  let nav=document.getElementById("navbar")
+  nav.innerHTML=navbar();
+
+  import footerabove from './components/footerabove.js'
+   let ftrabove=document.getElementById("bottombox")
+   ftrabove.innerHTML=footerabove()
+
+  import footer from './components/footer.js'
+  let foot=document.getElementById("footerbac")
+  foot.innerHTML=footer();
+
+</script>
+<script src="./scripts/cart.js"></script>

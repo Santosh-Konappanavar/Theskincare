@@ -1,0 +1,32 @@
+#bottombox1>div:nth-child(1)>svg {
+    width: 30px;
+    line-height: 1.6;
+    height: 30px;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+#bottombox1>div:nth-child(2){
+    color: gray;
+    width: 65%;
+}
+#bottombox1>div:nth-child(2)>p{
+    margin-top:12px;
+    color: gray;
+}
+#bottombox1>div{
+
+    margin: 10px;
+}
+#bottombox1{
+    display: flex;
+    margin-left: 20px;
+    padding: 15px;
+    justify-content: space-around;
+}
+#bottombox{
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

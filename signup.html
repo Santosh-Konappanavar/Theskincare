@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="./styles/footerabv.css">
+</head>
+<body>
+
+  <div id="navbar"></div>
+    <section>
+        <div class="container">
+            <form method="post" action="/account"  onsubmit="Signup(event)" id="signup-form" accept-charset="UTF-8" name="create" class="form form--main">
+                <input type="hidden" name="form_type" value="create_customer">
+                <input type="hidden" name="utf8" value="✓">
+                <header class="form__header">
+              <h1 class="form__title heading h1">Create my account</h1>
+              <p class="form__legend">Please fill in the information below:</p>
+             </header>
+             <div class="form__input-wrapper form__input-wrapper--labelled">
+                <input type="text"  class="form__field form__field--text" autocomplete="given-name" required="required" placeholder="First name" id="firstname" style="padding: 16px;" />
+               
+              </div>
+      
+              <div class="form__input-wrapper form__input-wrapper--labelled">
+                <input type="text"  class="form__field form__field--text" name="customer[last_name]" autocomplete="family-name" required="required" placeholder="Last name" id="lastname" style="padding: 16px;" />
+               
+              </div>
+              <div class="form__input-wrapper form__input-wrapper--labelled">
+              <input type="email" id="email" class="form__field form__field--text" name="customer[email]" required="required" placeholder="Email" style="padding: 16px;" />
+            </div>
+      
+            <div class="form__input-wrapper form__input-wrapper--labelled">
+              <input type="password" id="password" class="form__field form__field--text" name="customer[password]" required="required" autocomplete="new-password" placeholder="Password" style="padding: 16px;" >
+            </div>
+          
+             <div class="form__input-wrapper form__input-wrapper--labelled">
+              <input type="hidden" name="customer[accepts_marketing]" value="true" id="marketing">
+             </div>
+          
+            <button type="submit" class="form__submit button button--primary button--full" id="submit" style="margin-top: 15px; width: 103%;" >Create my account</button>
+      
+            <div class="form__secondary-action">
+              <p>Already have an account? <a href="login.html" class="link link--accented">Login here</a></p>
+            </div>
+        </form>
+        </div>
+      </section>
+      <div id="bottombox"></div>
+
+  <div id="footerbac"></div>
+</body>
+</html>
+<script type="module">
+  import navbar from './components/navbar.js'
+  let nav=document.getElementById("navbar")
+  nav.innerHTML=navbar();
+
+  import footerabove from './components/footerabove.js'
+   let ftrabove=document.getElementById("bottombox")
+   ftrabove.innerHTML=footerabove()
+
+  import footer from './components/footer.js'
+  let foot=document.getElementById("footerbac")
+  foot.innerHTML=footer();
+
+</script>
+<script src="./scripts/logs.js"></script>

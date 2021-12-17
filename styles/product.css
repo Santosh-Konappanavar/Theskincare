@@ -1,0 +1,105 @@
+#smalldiv{
+    border: 2px solid whitesmoke;
+    border-radius:1px solid rgb(230, 226, 226);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+#smalldiv img{
+    width: 100%;
+}
+#smalldiv p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #abb1b4;
+    font-weight: bolder;
+}
+.clinic{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: lighter;
+    color: #332f34;
+}
+.home{
+    margin-left: unset !important;
+}
+#seconddiv{
+    border: 2px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+#seconddiv>div>select{
+    height: 40px;
+    margin-top:15px;
+    color:#989fa2 ;
+    font-weight:bolder;
+    font-size: 12px;
+    width: 200px;
+    border: none;
+    outline: none;
+}
+#seconddiv>div>p{
+    margin-right: 20px;
+    font-size: 15px !important;
+}
+#thirddiv{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    justify-content: space-between;
+    background-color: white;
+   
+}
+#thirddiv>div{
+    border: 1.5px solid whitesmoke;
+    text-align: left;
+
+}
+#thirddiv>div>div>img{
+    width: 100%;
+    height: 300px;
+}
+#thirddiv>div>p{
+    font-size: 11px;
+    color: rgb(118, 112, 112);
+}
+#thirddiv>div>h5{
+    font-size: 13px;
+    line-height: 1.78em;
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+    color: rgb(101, 98, 98);
+    margin-top: -10px;
+}
+#price{
+    color: black !important;
+    font-size: 20px !important;
+    font-weight: lighter !important;
+}
+#thirddiv>div>button{
+  display:flex;
+  font-size: 14px;
+  line-height: 42px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 20px;
+}
+#addtocartbtn{
+    background-color: #332f34;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+#addtocartbtn:hover{
+    background-color:#545454 ;
+}
+#addtoquickbtn{
+    background-color: white;
+    border: 3px solid whitesmoke;
+    margin-bottom: 25px;
+}
+#addtoquickbtn:hover{
+    background-color: rgb(222, 222, 222);
+}

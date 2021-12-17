@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+#header{
+    position: relative;
+    background-color:#332f34;
+    color: #fbe4c2;
+    width: 100%;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1480px;
+    display: flex;
+}
+#container > div{
+    margin: 20px;
+}
+#search{
+    display: flex;
+
+}
+#searchinput{
+    position: relative;
+    flex: 1 0 auto;
+    width: 715px;
+    height: 44px;
+    padding: 0 15px 1px 15px;
+    line-height: normal;
+    border: none;
+    margin-top: 10px;
+}
+#searchinput:focus {
+    outline: none;
+}
+#searchbtn{
+    margin-top: 10px;
+    flex: none;
+    width: 50px;
+    height:45px;
+    color: white;
+    background-color:#efc991 ;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    text-transform: none;
+    padding: 0;
+    overflow: visible;
+    border: none;
+}
+#icon{
+    width: 21px;
+    height: 21px;
+    top: 1px;
+}
+#login{
+    text-align: center;
+    height: 44px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#log{
+    font-weight: 400;
+    color: #decaad;
+    font-size: 15px;
+}
+#myacount>a{
+    font-weight: 600px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: -2px;
+    cursor: pointer;
+    color: #efc991;
+}
+#myacount>a::after{
+   font-weight: 400;
+    content: "   \2228";
+   font-size: 23px;
+}
+#line{
+    margin-top: 10px;
+    width: 1.5px;
+    height: 44px;
+    background-color:#79553d;
+}
+.icon{
+    width: 27px;
+    height: 24px;
+}
+#cart{
+    --text-font-bolder-weight: 600;
+    font-size: 16px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#count{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    min-width: 15px;
+    padding: 4px;
+    text-align: center;
+    background-color:#efc991 ;
+    color: white;
+    border-radius: 1.75em;
+    transition: transform .35s
+}
+#cartbox{
+    display: flex;
+    margin-top: 23px;
+    cursor: pointer;
+}
+#box{
+    width: 27px;
+    height: 24px;
+}
+#belownavbox>ul>li::after{
+    content: "  \2228";
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+#belownavbox{
+    margin-left: 21px;
+    margin-right: 21px;
+    background-color: white;
+}
+#belownavbox>ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+#belownavbox>ul>li{
+    margin: 20px;
+    text-align: -webkit-match-parent;
+    font-size: 13px;
+    color: gray;
+    font-weight: 500;
+cursor: pointer;
+}
+#belownav{
+    background-color: white;
+    border: 2.5px solid whitesmoke;
+}
+#navbar{
+    position: sticky;
+    top: 0px;
+}
+#cart{
+    color:#efc991 ;
+}

@@ -1,0 +1,91 @@
+#adressbox>div{
+    margin: auto;
+    width: 50%;
+}
+#adress img{
+   width: 259px;
+   height: 90px;
+}
+ul{
+    display:flex;
+   margin-left: -40px;
+}
+ul>li{
+    margin: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+
+}
+#contact>div>p{
+    margin-top: 23px;
+    color: rgb(67, 67, 67);
+}
+#contact>div>h2{
+    font-weight: lighter;
+    font-size: 22px;
+    color: rgb(67, 67, 67);
+}
+#mail>div:nth-child(1){
+   margin-top: 20px;
+   height: 40px;
+   margin-bottom: 20px;
+}
+#shipping>div>input{
+    height: 40px;
+    width: 98.5%;
+    margin-top: 30px;
+    border: 2px solid rgb(232, 229, 229);
+}
+#sel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#sel>div>input{
+    height: 40px;
+    border: 2px solid rgb(232, 229, 229);
+}
+#sel>div>select{
+height: 45px;
+border: 2px solid rgb(232, 229, 229);
+color: gray;
+}
+#save{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#shippingbtn{
+   display: flex;
+   
+}
+#shippingbtn>button{
+    height: 50px;
+    width: 300px;
+    border: none;
+    background-color:#efc991 ;
+    border-radius: 4px;
+    color: #30281d;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+#shippingbtn>a{
+    text-decoration: none;
+   margin-top: 12px;
+   color:#efc991 ;
+}
+#shippingbtn>button:hover{
+    background-color:#f2b862 ;
+}
+#lost{
+    color:#efc991 ;
+}
