@@ -103,7 +103,7 @@ Theskincare.com  provides  dermatological skin care expertise &amp; specialised 
   
 ## Demo
 
->Link - [smallcase clone](https://santosh-konappanavar.github.io/Theskincare/)
+>Link - [theskincare](https://santosh-konappanavar.github.io/Theskincare/)
 
 
   
